@@ -35,3 +35,9 @@
   font-size: 35px;
   margin:0px 20px;
 }
+
+.bold {
+  font-weight: 800;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #3d0e61;
+}
