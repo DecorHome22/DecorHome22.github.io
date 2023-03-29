@@ -233,6 +233,7 @@ button {
     float: left;
     background-image: url(../images/OJOOO.jpg);
     height: auto;
+    background-repeat: no-repeat;
     background-size: 100%;
     padding: 0px 0px 20px 0px;
 }
@@ -325,7 +326,7 @@ button {
 
 .menu_main li a:hover {
     color: #ffffff;
-    background-color: #2b2278;
+    background-color: #cf9517;
 }
 
 .mb-lg-0,
@@ -368,7 +369,7 @@ button {
 .banner_text {
     width: 63%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 22px;
     color: #ffffff;
     text-align: center;
 }
@@ -538,15 +539,174 @@ button {
 
 /* contact section end */
 
+.VideoVen{
+    margin: 0 auto;
+    width: 300px;
+    display:block;
+    border-left-width: 10;
+   }
 
+.VideoEsc{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+   }
+
+.VideoPer{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+   }
+
+.VIDEO{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+   }
+
+.VIDE{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+   }
+
+.VI{
+    margin: 0 auto;
+    width: 300px;
+    display: block;
+   }
+
+   /*-------------------------------------------------*/
+   @keyframes slide {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(0); }
+
+	15% { transform: translateX(-100%); }
+	30% { transform: translateX(-100%); }
+
+	35% { transform: translateX(-200%); }
+	50% { transform: translateX(-200%); }
+
+	55% { transform: translateX(-300%); }
+	70% { transform: translateX(-300%); }
+
+	75% { transform: translateX(-400%); }
+	90% { transform: translateX(-400%); }
+
+	95% { transform: translateX(-500%); }
+	100% { transform: translateX(-500%); }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.slider {
+	position: relative;
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100vw;
+	flex-shrink: 0;
+	animation-name: slide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.slide a {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.caption {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 8vw;
+	position: absolute;
+	bottom: 8vw;
+	right: 4vw;
+}
+
+.slide:target {
+	animation-name: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 50;
+}
+
+.slider-controler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.slider-controler li {
+	margin: 0 0.5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slider-controler a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+	.slide {
+		width: 1200px;
+	}
+
+	.caption {
+		font-size: 96px;
+		bottom: 96px;
+		right: 50px;
+	}
+}
 /* blog section start */
 
 .blog_section {
     width: 100%;
     float: left;
-    background-image: url(../images/YEP.jpg);
+    background-image: url(../images/MADERA.jpg);
     height: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     padding-bottom: 345px;
     padding-top: 200px;
@@ -565,7 +725,7 @@ button {
 .blog_text {
     width: 80%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     padding-top: 40px;
     text-align: center;
@@ -896,7 +1056,7 @@ button {
 .footer_section {
     width: 100%;
     float: left;
-    background-image: url(../images/Abajo.jpeg);
+    background-image: url(../images/iii.jpg);
     height: auto;
     padding-top: 250px;
     background-size: 100% 100%;
