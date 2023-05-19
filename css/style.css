@@ -283,7 +283,11 @@ button {
     padding-right: 20px;
     padding-left: 20px;
 }
-
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
 .nav-item {
     position: relative;
 }
