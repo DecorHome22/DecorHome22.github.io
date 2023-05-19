@@ -272,12 +272,6 @@ button {
     align-items: center;
 }
 
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    border-radius: 20px;
-    border: 2px solid #fff;
-    color: #fff;
-}
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 20px;
