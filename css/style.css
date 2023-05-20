@@ -364,6 +364,7 @@ button {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Righteous', Regular;
+    text-shadow: 0.1em 0.1em #333;
 }
 
 .banner_text {
@@ -733,15 +734,30 @@ body {
     font-weight: bold;
     padding-top: 30px;
     text-align: center;
+    text-shadow: 0.1em 0.1em #333;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
 }
+
+.blog_taital2 {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
 
 .blog_text {
     width: 80%;
-    margin: 0 auto;
+    margin: 1px auto;
     font-size: 20px;
-    color: #ffffff;
+    color: #fcfcfc;
     padding-top: 40px;
     text-align: center;
+    text-shadow: 0.1em 0.1em #333;
 }
 
 .play_icon_main {
